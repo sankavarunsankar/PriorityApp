@@ -17,7 +17,13 @@ Create REST APIs that
 - Returns a list of all the priority areas from the database
 - Accepts the order of priority along with the satisfaction rating for each area for a user and stores it in the database
 
-Created 4 APIs
+**Maven Dependencies Used**
+	Restful WebService- Spring Web
+	Spring Boot
+	H2 DataBase
+	ORM- JPA
+	
+**Created 4 APIs**
 1.GET - Priorities list
 http://localhost:8080/Priorities
 
