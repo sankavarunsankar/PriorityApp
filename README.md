@@ -68,7 +68,7 @@ RequestBody
 	    }
 	]
 
-# Execute /Priority/src/main/resources/schema.sql after starting the Application at H2 
+**** Execute /Priority/src/main/resources/schema.sql after starting the Application at H2 **
 	http://localhost:8080/h2-console
 	JDBC URL: jdbc:h2:mem:Varun
 	UserName:sa
