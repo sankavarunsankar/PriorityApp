@@ -18,9 +18,9 @@ Create REST APIs that
 - Accepts the order of priority along with the satisfaction rating for each area for a user and stores it in the database
 
 **Maven Dependencies Used**
-	Restful WebService- Spring Web
-	Spring Boot
-	H2 DataBase
+	Restful WebService- Spring Web,
+	Spring Boot,
+	H2 DataBase,
 	ORM- JPA
 	
 **Created 4 APIs**
@@ -67,3 +67,8 @@ RequestBody
 	        "satisfactionRating": 3
 	    }
 	]
+
+# Execute /Priority/src/main/resources/schema.sql after starting the Application at H2 
+	http://localhost:8080/h2-console
+	JDBC URL: jdbc:h2:mem:Varun
+	UserName:sa
